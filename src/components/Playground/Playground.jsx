@@ -5,7 +5,7 @@ function Playground() {
   const cardContent = [
     {
       title: "Props",
-      description: "Un props est une valeur transmise d'un parent à un enfant.",
+      description: "Il s'agit d'une valeur transmise d'un parent à un enfant.",
       code: `{cardContent.map((e) => (
         <Card
           key={e.title}
@@ -18,7 +18,7 @@ function Playground() {
     },
     {
       title: "Prop-types",
-      description: "Donne une information sur le type attendu d'un props.",
+      description: "Donnent une information sur le type attendu d'un props.",
       code: `Card.propTypes = {
         title: PropTypes.string.isRequired,
         description: PropTypes.string,
@@ -29,7 +29,7 @@ function Playground() {
     {
       title: "State",
       description:
-        "Le state permet de mettre à jour l'informations d'un composant en une seule manipulation.",
+        "Le state permet de mettre à jour les valeurs d'un composant.",
       code: `const [position, setPosition] = useState({
         x: 0,
         y: 0,

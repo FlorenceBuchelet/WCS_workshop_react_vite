@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: hidden;
 }
 main {
   display: flex;
@@ -22,7 +23,7 @@ p, li, article {
   margin-inline: 20%;
   margin-top: 5%;
   opacity: 0.95;
-  border: 2px solid black;
+  border: 2px solid darkblue;
   border-radius: 50px;
   background-color: #00d8ff;
 }

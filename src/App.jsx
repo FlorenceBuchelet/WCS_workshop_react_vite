@@ -14,9 +14,9 @@ function App() {
   }, []);
   return (
     <>
-      <div className="welcomeClick" onClick={() => setDisplay("none")} onClickCapture={() => setZindex(-1)}>
+      <div className="welcomeClick" onClick={() => setDisplay("none")} onClickCapture={() => setZindex(-1)} style={{ display: display }}>
         <div className="welcomeBox" style={{ display: display, zIndex: zIndex }}>
-          {isDivVisible && <p className="welcomeText">Bienvenu sur ce magnique site fan de React & Vite</p>}
+          {isDivVisible && <p className="welcomeText">Bienvenue sur ce magnifique fansite dédié à React & Vite !</p>}
         </div>
       </div>
       <Title />

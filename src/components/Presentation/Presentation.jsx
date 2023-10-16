@@ -7,8 +7,7 @@ function Presentation() {
         React est une <strong>librairie</strong> Javascript créée par Facebook.
       </p>
       <p>
-        Elle permet de découper un projet en 
-        <strong>composants</strong> duplicables et réutilisables.
+        Elle permet de découper un projet en <strong>composants</strong> duplicables et réutilisables.
       </p>
       <p>
         Les <strong>keys</strong> rendent chaque élement d'un objet unique.

@@ -1,3 +1,7 @@
+#root {
+  font-size: 1.05rem;
+}
+
 .presentation {
   border: 10px solid #00d8ff;
   border-radius: 50px;
@@ -8,4 +12,14 @@
 
 h3 {
   text-align: center;
+  margin-block: 0.5rem;
+}
+
+.presentation h3 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-block: 0.5rem;
 }
