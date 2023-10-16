@@ -1,0 +1,14 @@
+.card {
+  border: 3px solid #00d8ff;
+  border-radius: 40px;
+  width: 48%;
+  height: 12rem;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card article {
+  margin: 0 2rem 1rem 2rem;
+}

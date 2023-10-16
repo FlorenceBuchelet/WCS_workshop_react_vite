@@ -1,0 +1,18 @@
+.titleLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.logo {
+  height: 10rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 5rem;
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(203, 14, 173, 1) 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-inline: 3rem;
+}
