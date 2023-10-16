@@ -15,8 +15,10 @@ function Demo() {
       }}
       style={{
         position: "relative",
-        width: "15rem",
-        height: "8rem",
+        width: "25rem",
+        height: "11rem",
+        top: -50,
+        left: -10,
       }}
     >
       <div
@@ -25,8 +27,8 @@ function Demo() {
           backgroundImage: `url('/vite.svg')`,
           backgroundRepeat: "no-repeat",
           transform: `translate(${position.x}px, ${position.y}px)`,
-          left: -1080,
-          top: -570,
+          left: -1090,
+          top: -550,
           width: 50,
           height: 50,
         }}
