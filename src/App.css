@@ -8,3 +8,24 @@ main {
 h2 {
   text-align: center;
 }
+
+.welcomeBox {
+  position: absolute;
+  margin-inline: 20%;
+  margin-top: 5%;
+  opacity: 0.95;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: #00d8ff;
+}
+.welcomeText {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10rem 1rem;
+}
+
+.welcomeClick {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
