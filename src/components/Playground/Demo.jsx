@@ -15,8 +15,9 @@ function Demo() {
       }}
       style={{
         position: "relative",
-        width: "15rem",
+        width: "24rem",
         height: "8rem",
+        overflow: "hidden",
       }}
     >
       <div

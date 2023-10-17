@@ -5,18 +5,20 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [isDivVisible, setIsDivVisible] = useState(false);
   const [display, setDisplay] = useState("block");
   const [zIndex, setZindex] = useState(1);
 
-  useEffect(() => {
-    return setIsDivVisible(true);
-  }, []);
   return (
     <>
-      <div className="welcomeClick" onClick={() => setDisplay("none")} onClickCapture={() => setZindex(-1)}>
+      <div
+        className="welcomeClick"
+        onClick={() => {
+          setDisplay("none");
+          setZindex(-1);
+        }}
+      >
         <div className="welcomeBox" style={{ display: display, zIndex: zIndex }}>
-          {isDivVisible && <p className="welcomeText">Bienvenu sur ce magnique site fan de React & Vite</p>}
+          {<p className="welcomeText">Bienvenu sur ce magnique site fan de React & Vite</p>}
         </div>
       </div>
       <Title />
