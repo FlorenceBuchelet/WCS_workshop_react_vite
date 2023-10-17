@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  overflow: hidden;
 }
 main {
   display: flex;
@@ -10,12 +9,17 @@ h2 {
   text-align: center;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: rgb(169, 12, 174);
 }
 
-p, li, article {
-  color: darkblue
+p,
+li,
+article {
+  color: darkblue;
 }
 
 .welcomeBox {
