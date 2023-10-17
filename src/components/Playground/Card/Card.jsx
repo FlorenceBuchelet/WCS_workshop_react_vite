@@ -1,4 +1,4 @@
-import Demo from "./Demo";
+import Demo from "../Demo/Demo";
 import "./Card.css";
 import PropTypes from "prop-types";
 
