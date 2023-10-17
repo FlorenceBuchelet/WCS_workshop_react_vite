@@ -15,11 +15,13 @@ function Demo() {
       }}
       style={{
         position: "relative",
-        width: "25rem",
-        height: "11rem",
+        width: "27rem",
+        height: "12.5rem",
         top: -50,
-        left: -10,
+        left: -26,
         overflow: "hidden",
+        cursor: 'none',
+        borderRadius: "40px",
       }}
     >
       <div
@@ -29,7 +31,7 @@ function Demo() {
           backgroundRepeat: "no-repeat",
           transform: `translate(${position.x}px, ${position.y}px)`,
           left: -1090,
-          top: -550,
+          top: -560,
           width: 50,
           height: 50,
         }}

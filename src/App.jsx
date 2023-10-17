@@ -6,14 +6,20 @@ import "./App.css";
 
 function App() {
   const [display, setDisplay] = useState("block");
-  const [zIndex, setZindex] = useState(1);
 
-  
   return (
     <>
-      <div className="welcomeClick" onClick={() => {setDisplay("none"); setZindex(-1)}} style={{ display: display }}>
-        <div className="welcomeBox" style={{ display: display, zIndex: zIndex }}>
-         <p className="welcomeText">Bienvenue sur ce magnifique fansite dédié à React & Vite !</p>
+      <div
+        className="welcomeClick"
+        onClick={() => {
+          setDisplay("none");
+        }}
+        style={{ display: display }}
+      >
+        <div className="welcomeBox">
+          <p className="welcomeText">
+            Bienvenue sur ce magnifique fansite dédié à React & Vite !
+          </p>
         </div>
       </div>
       <Title />
