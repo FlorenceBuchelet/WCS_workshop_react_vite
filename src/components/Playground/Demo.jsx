@@ -19,6 +19,7 @@ function Demo() {
         height: "11rem",
         top: -50,
         left: -10,
+        overflow: "hidden",
       }}
     >
       <div
