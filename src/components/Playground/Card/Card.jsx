@@ -1,4 +1,4 @@
-import Demo from "./Demo";
+import Demo from "../Demo/Demo";
 import "./Card.css";
 import PropTypes from "prop-types";
 
@@ -9,7 +9,11 @@ function Card({ title, description, demo, code }) {
       <article>
         {description} {demo ? <Demo /> : ""}
       </article>
-        {code ? <p><code>{code}</code></p> : null}
+      {code ? (
+        <p>
+          <code>{code}</code>
+        </p>
+      ) : null}
     </div>
   );
 }
@@ -19,6 +23,6 @@ Card.propTypes = {
   description: PropTypes.string,
   demo: PropTypes.bool,
   code: PropTypes.string,
-}
+};
 
 export default Card;

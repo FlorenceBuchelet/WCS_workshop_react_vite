@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "./Card/Card";
 import "./Playground.css";
 
 function Playground() {
@@ -28,8 +28,7 @@ function Playground() {
     },
     {
       title: "State",
-      description:
-        "Le state permet de mettre à jour les valeurs d'un composant.",
+      description: "Le state permet de mettre à jour les valeurs d'un composant.",
       code: `const [position, setPosition] = useState({
         x: 0,
         y: 0,
@@ -41,13 +40,7 @@ function Playground() {
     <div className="playground">
       <h2>🎊 Playground 🎊</h2>
       {cardContent.map((e) => (
-        <Card
-          key={e.title}
-          title={e.title}
-          description={e.description}
-          demo={e.demo}
-          code={e.code}
-        />
+        <Card key={e.title} title={e.title} description={e.description} demo={e.demo} code={e.code} />
       ))}
     </div>
   );
